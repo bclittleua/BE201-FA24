@@ -1,7 +1,7 @@
-
+# cfun
 To make a custom script into an executable command in the linux console, you must copy it to ``/usr/local/bin`` and ensure it has permissions to +rwx with ``chmod``. This can be doen with shell scripts (.sh) as well as ``python``, but you must first declare the env at top.
-example python: ``#!/usr/bin/env python``
-example bash: ``#!/bin/bash``
+## example python: ``#!/usr/bin/env python``
+## example bash: ``#!/bin/bash``
 
 
 # fkill (arg)
