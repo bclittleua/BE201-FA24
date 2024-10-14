@@ -1,3 +1,7 @@
+To make a custom script into an executable command in the linux console, you must copy it to /usr/local/bin and ensure it has permissions to +rwx with chmod.
+
+
+
 #fkill (arg)
 
 this command searches for an active process named by the arg. fkill b/c i use it to find processes to kill.
