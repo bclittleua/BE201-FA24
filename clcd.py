@@ -3,7 +3,7 @@ Connects LCD to a Pi-Cobbler via a breadboard.
 Displays TIME, DATE, and IP Address
 https://pimylifeup.com/wp-content/uploads/2016/09/Raspberry-Pi-LCD-16x2-Circuit-Diagram-v1.png
 '''
-
+#! /usr/bin/env python
 import time, feedparser, random
 import RPi.GPIO as GPIO
 from RPLCD import CharLCD
