@@ -2,6 +2,7 @@
 Connects LCD to a Pi-Cobbler via a breadboard.
 Displays IP Address and Time on first line of LCD.
 Trolls r/news sources and randomly scrolls headlines.
+https://pimylifeup.com/wp-content/uploads/2016/09/Raspberry-Pi-LCD-16x2-Circuit-Diagram-v1.png
 '''
 
 import time, feedparser, random
@@ -18,7 +19,7 @@ lcd = CharLCD(
     rows=2,
     pin_rs=15,
     pin_e=11,
-    pins_data=[22, 18, 16, 12],
+    pins_data=[22, 18, 16, 12],  #d4, d5, d6, d7 respectively on LCD pinout.
     auto_linebreaks=True)
 
 framebuffer = ['', '']
